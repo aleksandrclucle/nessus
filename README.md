@@ -93,9 +93,13 @@ Or open exec in docker, paste `cd /opt/nessus/sbin/` then `./nessuscli chpasswd`
 Example output:
 
 Login to change: `admin`
+
 New password: `Password123!`
+
 New password (again): `Password123!`
+
 Password changed for admin
+
 Now open your browser to https://localhost:8834
 
 ## v3 20220722
