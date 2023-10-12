@@ -88,7 +88,7 @@ Username: admin
 
 Reset password by running `docker exec -it nessus /opt/nessus/sbin/nessuscli chpasswd`
 
-Or open exec in docker, paste `cd /opt/nessus/sbin/` then `./nessuscli chpasswd"`
+Or open exec in docker, paste `cd /opt/nessus/sbin/` then `./nessuscli chpasswd`
 
 Example output:
 
