@@ -86,15 +86,15 @@ We can do a little thing for open source, for the world!
 
 Username: admin
 
-Reset password by running docker exec -it nessus /opt/nessus/sbin/nessuscli chpasswd
+Reset password by running `docker exec -it nessus /opt/nessus/sbin/nessuscli chpasswd`
 
-Or open exec in docker, paste "cd /opt/nessus/sbin/" then "./nessuscli chpasswd".
+Or open exec in docker, paste `cd /opt/nessus/sbin/` then `./nessuscli chpasswd"`
 
 Example output:
 
-Login to change: admin 
-New password: Password123!
-New password (again): Password123!
+Login to change: `admin`
+New password: `Password123!`
+New password (again): `Password123!`
 Password changed for admin
 Now open your browser to https://localhost:8834
 
