@@ -56,8 +56,7 @@ docker exec -it ramisec_nessus /bin/bash /nessus/update.sh
 
 account: `admin`
 
-Password: Easter Egg! Check the change version  
-Let you explore the function, if you solved the password, Keep It Secret😉
+Password: I don't know, but i know how change. Check example in update log in v4 20230523.
 
 # Readme
 
@@ -85,9 +84,19 @@ We can do a little thing for open source, for the world!
 
 - Change password
 
-  **tips：npaobi/lsspva-iph/ulzzbz**
+Username: admin
 
-  **Alea iacta est，Destiny reveals that your lucky number is 7.**
+Reset password by running docker exec -it nessus /opt/nessus/sbin/nessuscli chpasswd
+
+Or open exec in docker, paste "cd /opt/nessus/sbin/" then "./nessuscli chpasswd".
+
+Example output:
+
+Login to change: admin 
+New password: Password123!
+New password (again): Password123!
+Password changed for admin
+Now open your browser to https://localhost:8834
 
 ## v3 20220722
 
